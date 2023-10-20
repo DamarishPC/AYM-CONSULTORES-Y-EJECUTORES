@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+header{
+     width: 100%;
+     height: 50px;
+     color:#fff;
+     position: fixed;
+     top:0;
+     left: 0;
+     z-index: 100px;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;    
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 241, 241);
+}
+.contenedor>img{
+    width: 250px;
+    height: 120px;
+}
+.menu{
+    display: flex;
+    gap: 1rem;
+}
+.menu>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.portada>img{
+    width: 100%;
+}
+.servicios{
+    background-color: rgb(214, 233, 214);
+    height: 430px;
+}
+.servicios>h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.servicios>p{
+    text-align: center;
+    color: rgb(44, 44, 44);
+    margin-bottom: 20px
+}
+.fotos{
+    display: flex;
+    margin-left: 65px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.fotos>img{
+    width: 320px;
+    height: 280px;
+    border-radius: 4px;
+}
+.presentacion>h2{
+    text-align: center;
+}
+.presentacion>p{
+    margin-top: 20px;
+    margin-left: 3cqi;
+    margin-bottom: 20px;
+    color: rgb(44, 44, 44);
+}
+.contacto{
+    background-color:  rgb(214, 233, 214);
+}
+.contacto>h2{
+    text-align: center;
+}
+form {
+    padding: 20px;
+    margin-left: 350px;
+    width: 400px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #585656;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(248, 252, 248);
+}
+
+textarea {
+    resize: vertical;
+} 
+input[type="submit"]{
+    background-color: #062466;
+    border-radius: 40px;
+    width: 280px;
+    margin-left: 50px;
+}
+.pie_de_pagina{
+    background-color:#083b1d ;
+    height: 250px;
+    display: flex;
+}
+.pie_de_pagina>img{
+    width: 250px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.enlaces{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.enlaces>h2{
+    color: white;
+}
+.enlaces>h3{
+    color: white;
+    margin-top: 20px;
+}
+.siguenos{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.siguenos>h2{
+    color: white;
+}
+    
